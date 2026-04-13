@@ -31,15 +31,15 @@ export class ProjectsComponent {
       description: 'A minimalist and intuitive blogging platform designed for content creators, featuring Markdown support, category filtering, and responsive reading experience.',
       tags: ['Angular', 'Node.js', 'Express', 'MongoDB'],
       image: 'assets/images/project-images/blogspace.png',
-      githubLink: '#',
-      demoLink: '#'
+      githubLink: 'https://github.com/mhdshaheer/Blog-space',
+      demoLink: 'https://blog-space-frontend-vads.onrender.com/'
     },
     {
       title: 'Bit Core',
       description: 'A robust authentication and user management system focusing on security, featuring OTP verification, secure session handling, and advanced user roles.',
       tags: ['Angular', 'NestJS', 'MongoDB', 'Node.js'],
       image: 'assets/images/project-images/bitcore.png',
-      githubLink: '#',
+      githubLink: 'https://github.com/mhdshaheer/BitCore',
       demoLink: 'https://bitcore.zenfit.space'
     }
   ];
