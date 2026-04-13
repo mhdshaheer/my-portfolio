@@ -11,36 +11,36 @@ import { CommonModule } from '@angular/common';
 export class ProjectsComponent {
   projects = [
     {
-      title: 'ZenFit – Online Fitness Platform',
+      title: 'ZenFit',
       description: 'A comprehensive full-stack fitness platform with fitness plans, trainer bookings, role-based access control, and a responsive dashboard.',
       tags: ['Angular', 'Node.js', 'Express', 'MongoDB'],
-      image: 'linear-gradient(135deg, #1e293b 0%, #0ea5e9 100%)',
+      image: 'assets/images/project-images/zenfit.png',
       githubLink: 'https://github.com/mhdshaheer/ZenFit-fitness',
-      demoLink: '#'
+      demoLink: 'https://zenfit.space'
     },
     {
-      title: 'Zuka Ecommerce',
-      description: 'A robust e-commerce web application with MVC architecture, category management, cart system, and Razorpay integration.',
-      tags: ['Node.js', 'Express', 'MongoDB', 'SCSS'],
-      image: 'linear-gradient(135deg, #1e293b 0%, #8b5cf6 100%)',
+      title: 'Zuka Sports',
+      description: 'A premium sports equipment e-commerce destination with high-performance gear, secure payments via Razorpay, and a seamless shopping experience.',
+      tags: ['Node.js', 'Express', 'MongoDB', 'EJS'],
+      image: 'assets/images/project-images/zukasports.png',
       githubLink: 'https://github.com/mhdshaheer/zuka-ecommerce',
-      demoLink: '#'
+      demoLink: 'https://zuka.zenfit.space'
     },
     {
-      title: 'E-Commerce Mobile App',
-      description: 'A sleek modern mobile shopping application focusing on seamless user experience and smooth checkout process.',
-      tags: ['Flutter', 'Dart'],
-      image: 'linear-gradient(135deg, #1e293b 0%, #ec4899 100%)',
-      githubLink: 'https://github.com/mhdshaheer/E_CommerceApp',
-      demoLink: '#'
+      title: 'Blog Space',
+      description: 'A minimalist and intuitive blogging platform designed for content creators, featuring Markdown support, category filtering, and responsive reading experience.',
+      tags: ['Angular', 'Node.js', 'Express', 'MongoDB'],
+      image: 'assets/images/project-images/blogspace.png',
+      githubLink: 'https://github.com/mhdshaheer/Blog-space',
+      demoLink: 'https://blog-space-frontend-vads.onrender.com/'
     },
     {
-      title: 'Tesla Homepage Clone',
-      description: 'A high-fidelity recreations of the Tesla homepage demonstrating expertise in modern front-end layouts and CSS animations.',
-      tags: ['HTML5', 'CSS3', 'JavaScript'],
-      image: 'linear-gradient(135deg, #1e293b 0%, #10b981 100%)',
-      githubLink: 'https://github.com/mhdshaheer/tesla-clone',
-      demoLink: '#'
+      title: 'Bit Core',
+      description: 'A robust authentication and user management system focusing on security, featuring OTP verification, secure session handling, and advanced user roles.',
+      tags: ['Angular', 'NestJS', 'MongoDB', 'Node.js'],
+      image: 'assets/images/project-images/bitcore.png',
+      githubLink: 'https://github.com/mhdshaheer/BitCore',
+      demoLink: 'https://bitcore.zenfit.space'
     }
   ];
 }
